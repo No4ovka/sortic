@@ -12,10 +12,10 @@ int main()
     }
     while (a.size() > 0)
     {
-        int poloj, chis = 0;
+        int poloj, chis = 1000;
         for (int k = 0; k < a.size(); k++)
         {
-            if (a[k] > chis)
+            if (a[k] < chis)
             {
                 chis = a[k];
                 poloj = k + 1;
@@ -26,7 +26,7 @@ int main()
             while (a[0] != chis)
             {
                 cout<<"rra"<<endl;
-                ra(a);
+                rra(a);
             }
         }
         else
@@ -40,6 +40,11 @@ int main()
         cout<<"pb"<<endl;
         pb(a,b);
     }
-    vivod(b);
+    while (b.size() > 0)
+    {
+        cout<<"pa"<<endl;
+        pa(a,b);
+    }
+    vivod(a);
     return 0;
 }
