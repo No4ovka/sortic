@@ -21,4 +21,8 @@ void rra(vector <int> &a);
 void rrb(vector <int> &b);
 void rrr(vector <int> &a, vector <int>& b);
 
+void vivod(vector <int> &a);
+long long ToInt(string str);
+long long itc_len(string str);
+
 #endif // HEADER_H_INCLUDED

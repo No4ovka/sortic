@@ -25,3 +25,10 @@ void rr(vector <int> &a, vector <int> &b)
     ra(a);
     rb(b);
 }
+
+
+void vivod(vector <int> &a)
+{
+    for (int k = 0; k < a.size(); k++)
+        cout<<a[k];
+}
