@@ -15,7 +15,7 @@ int main()
     while (a.size() > 0)
     {
         long long poloj, chis = 10000000;
-        for (int k = 0; k < a.size(); k++)
+        for (long long k = 0; k < a.size(); k++)
         {
             if (a[k] < chis)
             {
@@ -27,58 +27,59 @@ int main()
         {
             while (a[0] != chis)
             {
-                itc_SetColor(11,1);
+//                itc_SetColor(11,1);
                 cout<<"rra"<<endl;
                 schet++;
-                itc_SetColor(3,1);
-                cout<<"a: ";
+//                itc_SetColor(3,1);
+//                cout<<"a: ";
                 rra(a);
-                vivod(a);
-                cout<<endl<<"b: ";
-                vivod(b);
-                cout<<endl;
+//                vivod(a);
+//                cout<<endl<<"b: ";
+//                vivod(b);
+//                cout<<endl;
             }
         }
-
+        else
         {
             while (a[0] != chis)
             {
-                itc_SetColor(11,1);
+//                itc_SetColor(11,1);
                 cout<<"ra"<<endl;
                 schet++;
-                itc_SetColor(3,1);
-                cout<<"a: ";
+//                itc_SetColor(3,1);
+//                cout<<"a: ";
                 ra(a);
-                vivod(a);
-                cout<<endl<<"b: ";
-                vivod(b);
-                cout<<endl;
+//                vivod(a);
+//                cout<<endl<<"b: ";
+//                vivod(b);
+//                cout<<endl;
             }
         }
-        itc_SetColor(11,1);
+//        itc_SetColor(11,1);
         cout<<"pb"<<endl;
         schet++;
-        itc_SetColor(3,1);
-        cout<<"a: ";
+//        itc_SetColor(3,1);
+//        cout<<"a: ";
         pb(a,b);
-        vivod(a);
-        cout<<endl<<"b: ";
-        vivod(b);
-        cout<<endl;
+//        vivod(a);
+//        cout<<endl<<"b: ";
+//        vivod(b);
+//        cout<<endl;
     }
     while (b.size() > 0)
     {
-        itc_SetColor(11,1);
+//        itc_SetColor(11,1);
         cout<<"pa"<<endl;
         schet++;
-        itc_SetColor(3,1);
-        cout<<"a: ";
+//        itc_SetColor(3,1);
+//        cout<<"a: ";
         pa(a,b);
-        vivod(a);
-        cout<<endl<<"b: ";
-        vivod(b);
-        cout<<endl;
+//        vivod(a);
+//        cout<<endl<<"b: ";
+//        vivod(b);
+//        cout<<endl;
     }
+    vivod(a);
     cout<<"Komand: "<<schet;
     return 0;
 }
