@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <windows.h>
 
 using namespace std;
 
@@ -24,5 +25,6 @@ void rrr(vector <int> &a, vector <int>& b);
 void vivod(vector <int> &a);
 long long ToInt(string str);
 long long itc_len(string str);
+void itc_SetColor(int text, int background);
 
 #endif // HEADER_H_INCLUDED
